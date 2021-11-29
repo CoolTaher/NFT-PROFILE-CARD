@@ -1,0 +1,149 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+/* Main Card Content  */
+.maincard{
+    width: 17rem;
+    height: 27rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.5rem;
+    border:  2px solid transparent;
+    border-radius: 10px ;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 5px 5px 10px black;
+}
+#img{
+    width: 14rem;
+    height: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 19px 0px 0px 25px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+}
+.overlay{
+    z-index: 0;
+    opacity: 0;
+    position: absolute;
+    width: 14rem;
+    height: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin: -212px 0px 0px 26px;
+    border-radius: 5px;
+}
+.overlay img{
+    display: block;
+    margin: auto;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 6rem;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0px 0px 25px;
+}
+p{
+    font-weight: lighter;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    margin: 15px 0px 0px 25px;
+}
+span{
+ font-size: 12px;
+ font-family: 'Outfit', sans-serif;
+}
+.duration{
+    color: hsl(215, 51%, 70%);
+    font-weight: lighter;
+    font-family: 'Outfit', sans-serif;
+    float: right;
+    font-size: 15px;
+    margin: -21px 20px 0px 23px;
+}
+.balance{
+    font-family: 'Outfit', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 15px 0px 0px 23px;
+}
+hr{
+    
+    margin: 15px 0px 0px 23px;
+    border-top: 0px solid hsl(215, 32%, 27%) ;
+    width: 14rem;
+    
+}
+/* creator class */
+.creator img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.creator{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    margin: -10px 0px 0px 35px;
+}
+#cname{
+    color: white;
+}
+
+h3{
+
+    font-size: 13px;
+}
+.attribution{
+    font-family: 'Outfit', sans-serif;
+    color:white;
+    text-align: center;
+    margin-top: 3.5rem;
+}
+.attribution a{
+    font-family: 'Outfit', sans-serif;
+    color:hsla(178, 100%, 50%);
+}
+/* Hover Elements  */
+
+h1:hover{
+    color: hsla(178, 100%, 50%);
+    cursor: pointer;
+}
+#cname:hover{
+    text-decoration: none cyan;
+    color: cyan;
+    cursor: pointer;
+}
+#img:hover {
+    opacity: 0.3;
+    z-index: 1;
+    cursor: pointer;
+}
+.overlay:hover{
+
+    opacity: 1;
+    background-color: hsla(178, 100%, 50%, 0.5) ;
+    cursor: pointer;
+}
+/* media query */
+@media only screen and (max-width: 600px) {
+    .maincard{
+        width: 17rem;
+        height: 28rem;
+        margin: 93px 0px 0px 108px;
+    }
+    .attribution{
+        margin-top: 3rem;
+        font-size: 11px;
+    }
+
+
+}
+
+
